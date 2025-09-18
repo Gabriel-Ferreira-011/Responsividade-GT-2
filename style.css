@@ -57,6 +57,7 @@ footer{
 }
 /* responsividade - mínimo da tela em 600px */
 @media only screen and (max-width: 600px){
+    main{width: 100%;}
     aside{display: none;} /* sisplay none é para nao aparecer*/
     #a {width: 100%; background-color: crimson;}
     #b {width: 100%;}
@@ -65,4 +66,5 @@ footer{
 }
 @media only screen and (orientation: landscape){
     body{ background-color: #BBD6BD;}
+
 }
